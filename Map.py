@@ -11,7 +11,7 @@ def afficher_map():
         colonne_actuelle = 1
         while colonne_actuelle <= largeur:
             if ligne_actuelle == 1 or ligne_actuelle == hauteur or colonne_actuelle == 1 or colonne_actuelle == largeur :
-                case = '+'
+                case = '¤'
             else :
                 case = recuperer_ressource(colonne_actuelle, ligne_actuelle)
             ligne = ligne + case
