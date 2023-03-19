@@ -6,9 +6,9 @@ config = {
     "ressources" : {
         "types" : {
             "Or" : 0.2,
-            "Pierre" : 4,
-            "Bois" : 10,
-            "Fruits" : 9
+            "Pierre" : 3,
+            "Bois" : 8,
+            "Fruits" : 7
         },
         "quantite" : {
             "min" : 50,
